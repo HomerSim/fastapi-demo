@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.dist/
+build/
+dist/
+*.egg
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# VS Code
+.vscode/
+
+# dotenv environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+*.cover
+*.py,cover
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Docker
+*.pid
+*.log
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# GitHub Actions
+.github/
+
+# Local database
+*.sqlite3
+*.db
+
+# FastAPI specific
+instance/
+app.db
+*.sqlite3
