@@ -8,3 +8,5 @@ httpx
 python-dotenv
 cryptography
 jinja2
+py-ulid
+passlib[bcrypt]
