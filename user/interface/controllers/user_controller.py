@@ -29,12 +29,12 @@ def create_user(user: CreateUserBody):
 curl -X POST 'localhost:8000/users' \
 -H 'accept: application/json' \
 -H 'Content-Type: application/json' \
--d '{"name": "Dexter", "email": "wowls5000@naver.com", "password": "1234"}'
+-d '{"name": "Dexter3", "email": "test1@naver.com", "password": "1234"}'
 
 
 curl -X POST -i 'localhost:8000/users' \
 -H 'accept: application/json' \
 -H 'Content-Type: application/json' \
--d '{"name": "Dexter", "email": "wowls5000@naver.com", "password": 1234}'
+-d '{"name": "Dexter", "email": "test1@naver.com", "password": 1234}'
 
 """
